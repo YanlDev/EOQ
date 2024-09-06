@@ -5,7 +5,7 @@ from io import BytesIO
 import base64
 import os
 
-app = Flask(__name__)
+app= Flask(__name__)
 
 @app.route('/')
 def index():
